@@ -1,1 +1,2 @@
-prideta info
+prideta infogit status
+papildyta
