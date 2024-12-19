@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connected Table Example</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+        .sidebar {
+            width: 20%;
+            background-color: #f9f9f9;
+            vertical-align: top;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+        .post {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .post img {
+            margin-right: 15px;
+        }
+        h2 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- Header Row -->
+        <tr>
+            <th colspan="3" style="text-align: center; font-size: 1.5em;">Blog'as</th>
+        </tr>
+        <!-- Sidebar and First Blog Row -->
+        <tr>
+            <td class="sidebar" rowspan="4">
+                <h3>Paskutiniai įrašai</h3>
+                <ul>
+                    <li><a href="#">Naujiena #1</a></li>
+                    <li><a href="#">Naujiena #2</a></li>
+                    <li><a href="#">Naujiena #3</a></li>
+                </ul>
+                <p class="highlight">Pasiieškome internete kaip išlygouti td dalį viršuje.</p>
+            </td>
+            <td rowspan="2">Duomenys 1</td>
+            <td>
+                <div class="post">
+                    <img src="https://via.placeholder.com/150x200" alt="Placeholder Image">
+                    <div>
+                        <h2>Naujiena #1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt perferendis in nisi adipisci explicabo ut optio natus a?</p>
+                        <a href="#">Skaityti plačiau</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <!-- Second Blog Row -->
+        <tr>
+            <td>
+                <div class="post">
+                    <img src="https://via.placeholder.com/150x200" alt="Placeholder Image">
+                    <div>
+                        <h2>Naujiena #2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores repellendus quos laborum dignissimos voluptate doloribus.</p>
+                        <a href="#">Skaityti plačiau</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <!-- Third Blog Row -->
+        <tr>
+            <td>Duomenys 4</td>
+            <td>
+                <div class="post">
+                    <img src="https://via.placeholder.com/150x200" alt="Placeholder Image">
+                    <div>
+                        <h2>Naujiena #3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sit ea deleniti, doloremque repellendus.</p>
+                        <a href="#">Skaityti plačiau</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <!-- Final Row -->
+        <tr>
+            <td>Duomenys 5</td>
+            <td colspan="1" style="text-align: center; font-style: italic;">Visos naujienos baigiasi čia.</td>
+        </tr>
+    </table>
+</body>
+</html>
