@@ -1,0 +1,32 @@
+/* General CSS rules for all lists */
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* For ul lists, change the list style type to square */
+ul li {
+    list-style-type: square;
+}
+
+/* For ol lists, change numbering style to upper-roman */
+ol li {
+    list-style-type: upper-roman;
+}
+
+/* Styling for specific class "saraso-elementai" */
+.saraso-elementai {
+    list-style-type: none;
+    border-bottom: 2px solid silver;
+}
+
+/* Additional technical requirements */
+ul {
+    list-style-type: none;
+}
+
+ul li::before {
+    content: '\2664';
+    color: red;
+}

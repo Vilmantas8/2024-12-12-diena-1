@@ -1,0 +1,8 @@
+.container {
+    background: red;
+}
+
+.block {
+    width: 200px;
+    height: 100px; /* Example height value you can adjust */
+}

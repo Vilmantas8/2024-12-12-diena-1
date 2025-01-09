@@ -1,0 +1,15 @@
+body {
+    background-color: #f2e9d8;
+
+}
+h1, h2, h3, h4, h5, h6{
+    color: rgba(0,0,0,0.2);
+}
+body > table{
+    background-image: url(https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: content;
+    
+}

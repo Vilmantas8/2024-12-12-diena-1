@@ -1,0 +1,27 @@
+#task-div p, #task-div a {
+    font-size: 2em;
+}
+
+#task-div mark:hover {
+    position: relative;
+    bottom: 10px;
+}
+
+#task-div a:hover {
+    position: relative;
+    left: 20px;
+}
+#virsus-blokas {
+    background-color: #d0f0c0;
+    padding: 1em;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    margin: 0;
+}
+
+#virsus-blokas a {
+    color: #ffffff;
+    text-decoration: none;
+}
+

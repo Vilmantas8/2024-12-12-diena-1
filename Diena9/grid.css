@@ -1,0 +1,17 @@
+/* grid.css */
+.box {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border: 2px solid black; /* Adds a black border to all boxes */
+    margin: 5px; /* Adds spacing between columns and rows */
+    box-sizing: border-box; /* Ensures padding and border don't affect the box size */
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
