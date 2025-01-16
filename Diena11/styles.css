@@ -1,0 +1,393 @@
+/* Hero Section Styling */
+.hero-section {
+    background: url('Rectangle 2.svg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0; 
+}
+
+/* Red Section Styling */
+.red-section {
+    background-color: #dc3545; 
+    margin: 0; 
+    padding: 30px 0; 
+    width: 100%; 
+}
+
+
+/* ATLIKĖJAI Heading */
+.atlikejai-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.7px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+/* ATLIKĖJAI Description Text */
+.atlikejai-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 0; 
+    margin-bottom: 30px;
+    width: 735px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+/* GALERIJA Section */
+.galeria-section {
+    text-align: center;
+    background-color: #f9f9f9; /* Light background */
+    padding: 50px 20px;
+}
+
+.galeria-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.7px;
+    margin-bottom: 10px;
+}
+
+.galeria-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Gallery Images */
+.gallery-image {
+    width: 100%; /* Fully responsive images */
+    height: auto; /* Maintain aspect ratio */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+/* BILIETAI Section */
+.bilietai-section {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .bilietai-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.7px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    margin-bottom: 20px;
+  }
+  
+  .bilietai-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 735px;
+    margin-bottom: 50px;
+  }
+  
+  /* BILIETAI Section */
+.bilietai-section {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .bilietai-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.7px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    margin-bottom: 20px;
+  }
+  
+  .bilietai-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 735px;
+    margin-bottom: 50px;
+  }
+  
+  /* BILIETAI Section */
+.bilietai-section {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .bilietai-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.7px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    margin-bottom: 20px;
+  }
+  
+  .bilietai-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 735px;
+    margin-bottom: 50px;
+  }
+  
+  /* Ticket Blocks */
+  .ticket-block {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 447px; /* Set exact width */
+    height: 375px; /* Set exact height */
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for visual clarity */
+  }
+  
+  .ticket-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.83px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+  
+  .ticket-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .ticket-price {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .ticket-price span {
+    color: red;
+    font-size: 20px;
+  }
+  
+  .ticket-button {
+    display: inline-block;
+    width: 216px;
+    height: 41.9px;
+    line-height: 41.9px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    background-color: #dc3545;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .ticket-block {
+      width: 100%; /* Full width for smaller screens */
+      height: auto; /* Auto height for responsive content */
+    }
+  }
+  /* KAIP RASTI Section */
+.kaip-rasti-section {
+    text-align: center;
+    background-color: #fceaea; /* Light pink background */
+    padding: 50px 20px;
+  }
+  
+  .kaip-rasti-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.7px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    margin-bottom: 20px;
+  }
+  
+  .kaip-rasti-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 735px;
+    margin-bottom: 50px;
+  }
+  
+  .kaip-rasti-map img {
+    width: 100%;
+    max-width: 1175px; /* Set maximum width for the map */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ddd; /* Optional border for clarity */
+    border-radius: 5px; /* Optional rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  }
+  /* SUSISIEKTI Section */
+.susisiekti-section {
+  text-align: center;
+  background-color: #f9f9f9; /* Light background */
+  padding: 50px 20px;
+}
+
+.susisiekti-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 58.7px;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background-color: #dc3545;
+  margin: 0 auto 30px;
+}
+
+/* Form Styling */
+.susisiekti-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.susisiekti-form .form-group {
+  margin-bottom: 20px; /* Space between rows */
+}
+
+.susisiekti-form .form-label {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+  color: #222222;
+}
+
+.susisiekti-form .form-control {
+  width: 100%;
+  height: 40px; /* Input box height */
+  padding: 5px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Submit Button */
+.susisiekti-button {
+  width: 120px; /* Button width */
+  height: 40px; /* Button height */
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.susisiekti-button:hover {
+  background-color: #c82333;
+}
+
+/* Spacing */
+.susisiekti-section {
+  margin-bottom: 80px; /* Distance to footer */
+}
+
+  
+  /* Footer Section */
+.footer {
+    position: relative;
+    width: 100%; /* Make the footer span the full width of the screen */
+    height: auto; /* Allow height to adjust dynamically */
+    background: #ffffff; /* White background */
+    border-top: 1px solid #ddd; /* Optional border for separation */
+    padding: 20px 0; /* Padding for spacing */
+  }
+  
+  .footer .container-fluid {
+    max-width: 1920px; /* Max width for larger screens */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  .footer-copyright {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    color: #222222;
+    margin: 0;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap; /* Allow links to wrap */
+    gap: 10px; /* Space between links */
+    justify-content: flex-end; /* Align links to the right */
+  }
+  
+  .footer-links a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222222;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    color: #dc3545; /* Red hover effect */
+  }
+  
+  

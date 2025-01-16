@@ -1,0 +1,16 @@
+.hero-section {
+    background-color: #fff7f2;
+    padding: 40px 20px;
+  }
+  
+  .hero-image {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .hero-text {
+    background-color: #ffe6cc;
+    padding: 10px;
+    border: 2px solid #ffcc66;
+    border-radius: 10px;
+  }
