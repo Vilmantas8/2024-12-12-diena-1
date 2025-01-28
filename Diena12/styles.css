@@ -1,8 +1,14 @@
-/* Pagrindinis konteineris (Main container) */
+/* Bendras puslapio fonas (Global page background) */
+body {
+    background-color: #F6F4F5;
+}
+
+/* Pagrindinis konteineris */
 .main-container {
     width: 1440px;
     margin: 0 auto;
     position: relative;
+    background-color: #F6F4F5;
 }
 
 /* Viršutinė navigacija (Top navigation) */
@@ -73,7 +79,27 @@
 /* Kairės pusės tekstas (Left side text) */
 .text-container {
     width: 432px;
-    padding: 266px 0 0 80px;
+    padding: 80px 0 0 80px;
+    background-color: #F6F4F5;
+    position: relative;
+}
+
+/* Antraštės konteineris (Heading container) */
+.text-container h1 {
+    width: 432px;
+    margin-bottom: 16px;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #1F2937;
+}
+
+/* Aprašymo konteineris (Description container) */
+.text-container p {
+    width: 432px;
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #4B5563;
 }
 
 /* Antraštės stilius (Heading style) */
