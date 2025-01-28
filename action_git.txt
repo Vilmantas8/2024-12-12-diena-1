@@ -1,0 +1,271 @@
+Vartotojas@DESKTOP-FOL2BIK MINGW64 ~/2024-12-12-diena-1 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Diena10/Figma/index.html
+        new file:   Diena10/Figma/styles.css
+        new file:   Diena10/Figma/svg/photo.png
+        new file:   Diena10/Figma2/github.html
+        new file:   Diena10/Figma2/slack.html
+        new file:   Diena10/Figma2/zoom.html
+        new file:   Diena11/Ellipse 1.svg
+        new file:   Diena11/Ellipse 2.svg
+        new file:   Diena11/Ellipse 3.svg
+        new file:   Diena11/Ellipse 4.svg
+        new file:   Diena11/Ellipse 5.svg
+        new file:   Diena11/Ellipse 6.svg
+        new file:   Diena11/Ellipse 7.svg
+        new file:   Diena11/Rectangle 10.svg
+        new file:   Diena11/Rectangle 11.svg
+        new file:   Diena11/Rectangle 12.svg
+        new file:   Diena11/Rectangle 13.svg
+        new file:   Diena11/Rectangle 14.svg
+        new file:   Diena11/Rectangle 15.svg
+        new file:   Diena11/Rectangle 16.svg
+        new file:   Diena11/Rectangle 17.svg
+        new file:   Diena11/Rectangle 18.svg
+        new file:   Diena11/Rectangle 19.svg
+        new file:   Diena11/Rectangle 2.svg
+        new file:   Diena11/Rectangle 20.svg
+        new file:   Diena11/Rectangle 21.svg
+        new file:   Diena11/Rectangle 22.svg
+        new file:   Diena11/Rectangle 27.svg
+        new file:   Diena11/Rectangle 8.svg
+        new file:   Diena11/Rectangle 9.svg
+        new file:   Diena11/index.html
+        new file:   Diena11/styles.css
+        renamed:    Diena9/assets/css.css -> Diena8/Figma/assets/css.css
+        renamed:    Diena9/assets/css/bootstrap-grid.css -> Diena8/Figma/assets/css/bootstrap-grid.css
+        renamed:    Diena9/assets/css/bootstrap-grid.css.map -> Diena8/Figma/assets/css/bootstrap-grid.css.map
+        renamed:    Diena9/assets/css/bootstrap-grid.min.css -> Diena8/Figma/assets/css/bootstrap-grid.min.css
+        renamed:    Diena9/assets/css/bootstrap-grid.min.css.map -> Diena8/Figma/assets/css/bootstrap-grid.min.css.map
+        renamed:    Diena9/assets/css/bootstrap-reboot.css -> Diena8/Figma/assets/css/bootstrap-reboot.css
+        renamed:    Diena9/assets/css/bootstrap-reboot.css.map -> Diena8/Figma/assets/css/bootstrap-reboot.css.map
+        renamed:    Diena9/assets/css/bootstrap-reboot.min.css -> Diena8/Figma/assets/css/bootstrap-reboot.min.css
+        renamed:    Diena9/assets/css/bootstrap-reboot.min.css.map -> Diena8/Figma/assets/css/bootstrap-reboot.min.css.map
+        renamed:    Diena9/assets/css/bootstrap.css -> Diena8/Figma/assets/css/bootstrap.css
+        renamed:    Diena9/assets/css/bootstrap.css.map -> Diena8/Figma/assets/css/bootstrap.css.map
+        renamed:    Diena9/assets/css/bootstrap.min.css -> Diena8/Figma/assets/css/bootstrap.min.css
+        renamed:    Diena9/assets/css/bootstrap.min.css.map -> Diena8/Figma/assets/css/bootstrap.min.css.map
+        renamed:    Diena9/assets/index.html -> Diena8/Figma/assets/index.html
+        renamed:    Diena9/assets/js/bootstrap.bundle.js -> Diena8/Figma/assets/js/bootstrap.bundle.js
+        renamed:    Diena9/assets/js/bootstrap.bundle.js.map -> Diena8/Figma/assets/js/bootstrap.bundle.js.map
+        renamed:    Diena9/assets/js/bootstrap.bundle.min.js -> Diena8/Figma/assets/js/bootstrap.bundle.min.js
+        renamed:    Diena9/assets/js/bootstrap.bundle.min.js.map -> Diena8/Figma/assets/js/bootstrap.bundle.min.js.map
+        renamed:    Diena9/assets/js/bootstrap.js -> Diena8/Figma/assets/js/bootstrap.js
+        renamed:    Diena9/assets/js/bootstrap.js.map -> Diena8/Figma/assets/js/bootstrap.js.map
+        renamed:    Diena9/assets/js/bootstrap.min.js -> Diena8/Figma/assets/js/bootstrap.min.js
+        renamed:    Diena9/assets/js/bootstrap.min.js.map -> Diena8/Figma/assets/js/bootstrap.min.js.map
+        renamed:    Diena9/grid.css -> Diena8/Figma/grid.css
+        renamed:    Diena9/grid.html -> Diena8/Figma/grid.html
+        renamed:    Diena9/grid2.html -> Diena8/Figma/grid2.html
+        renamed:    Diena9/index.html -> Diena8/Figma/index.html
+        renamed:    Diena9/style.css -> Diena8/Figma/style.css
+        renamed:    Diena9/website.html -> Diena8/Figma/website.html
+        new file:   Diena8/vazonai/image1.png
+        new file:   Diena8/vazonai/image2.png
+        new file:   Diena8/vazonai/image3.png
+        new file:   Diena8/vazonai/image4.png
+        new file:   Diena8/vazonai/main.html
+        new file:   Diena8/vazonai/pirkti.png
+        new file:   Diena8/vazonai/styles.css
+        new file:   Diena8/vazonai/vazonospalva.png
+        renamed:    Diena10/Rectangle 1.svg -> Diena9/Figma_website1/Rectangle 1.svg
+        renamed:    Diena10/Rectangle 4.svg -> Diena9/Figma_website1/Rectangle 4.svg
+        renamed:    Diena10/figma3.html -> Diena9/Figma_website1/figma3.html
+        renamed:    Diena10/simple-line-icons_bubbles.svg -> Diena9/Figma_website1/simple-line-icons_bubbles.svg
+        renamed:    Diena10/simple-line-icons_call-end.png -> Diena9/Figma_website1/simple-line-icons_call-end.png
+        renamed:    Diena10/simple-line-icons_direction.png -> Diena9/Figma_website1/simple-line-icons_direction.png
+        renamed:    Diena10/simple-line-icons_earphones.png -> Diena9/Figma_website1/simple-line-icons_earphones.png
+        new file:   Diena9/Figma_website2/assets/.DS_Store
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-grid.css
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-grid.css.map
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-grid.min.css
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-grid.min.css.map
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-grid.rtl.css
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-grid.rtl.css.map
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-grid.rtl.min.css
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-grid.rtl.min.css.map
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-reboot.css
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-reboot.css.map
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-reboot.min.css
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-reboot.min.css.map
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-reboot.rtl.css
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-reboot.rtl.css.map
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-reboot.rtl.min.css
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-reboot.rtl.min.css.map
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-utilities.css
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-utilities.css.map
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-utilities.min.css
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-utilities.min.css.map
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-utilities.rtl.css
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-utilities.rtl.css.map
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-utilities.rtl.min.css
+        new file:   Diena9/Figma_website2/assets/css/bootstrap-utilities.rtl.min.css.map
+        new file:   Diena9/Figma_website2/assets/css/bootstrap.css
+        new file:   Diena9/Figma_website2/assets/css/bootstrap.css.map
+        new file:   Diena9/Figma_website2/assets/css/bootstrap.min.css
+        new file:   Diena9/Figma_website2/assets/css/bootstrap.min.css.map
+        new file:   Diena9/Figma_website2/assets/css/bootstrap.rtl.css
+        new file:   Diena9/Figma_website2/assets/css/bootstrap.rtl.css.map
+        new file:   Diena9/Figma_website2/assets/css/bootstrap.rtl.min.css
+        new file:   Diena9/Figma_website2/assets/css/bootstrap.rtl.min.css.map
+        new file:   Diena9/Figma_website2/assets/css/stiliai.css
+        new file:   Diena9/Figma_website2/assets/css/styles.css
+        new file:   Diena9/Figma_website2/assets/images/Rectangle 10.png
+        new file:   Diena9/Figma_website2/assets/images/Rectangle 8.png
+        new file:   Diena9/Figma_website2/assets/images/Rectangle 9.png
+        new file:   Diena9/Figma_website2/assets/images/fonas.png
+        new file:   Diena9/Figma_website2/assets/js/bootstrap.bundle.js
+        new file:   Diena9/Figma_website2/assets/js/bootstrap.bundle.js.map
+        new file:   Diena9/Figma_website2/assets/js/bootstrap.bundle.min.js
+        new file:   Diena9/Figma_website2/assets/js/bootstrap.bundle.min.js.map
+        new file:   Diena9/Figma_website2/assets/js/bootstrap.esm.js
+        new file:   Diena9/Figma_website2/assets/js/bootstrap.esm.js.map
+        new file:   Diena9/Figma_website2/assets/js/bootstrap.esm.min.js
+        new file:   Diena9/Figma_website2/assets/js/bootstrap.esm.min.js.map
+        new file:   Diena9/Figma_website2/assets/js/bootstrap.js
+        new file:   Diena9/Figma_website2/assets/js/bootstrap.js.map
+        new file:   Diena9/Figma_website2/assets/js/bootstrap.min.js
+        new file:   Diena9/Figma_website2/assets/js/bootstrap.min.js.map
+        new file:   Diena9/Figma_website2/puslapis.html
+
+
+Vartotojas@DESKTOP-FOL2BIK MINGW64 ~/2024-12-12-diena-1 (main)
+$ git commit -m "nauji"
+[main e25adca] nauji
+ 127 files changed, 61350 insertions(+)
+ create mode 100644 Diena10/Figma/index.html
+ create mode 100644 Diena10/Figma/styles.css
+ create mode 100644 Diena10/Figma/svg/photo.png
+ create mode 100644 Diena10/Figma2/github.html
+ create mode 100644 Diena10/Figma2/slack.html
+ create mode 100644 Diena10/Figma2/zoom.html
+ create mode 100644 Diena11/Ellipse 1.svg
+ create mode 100644 Diena11/Ellipse 2.svg
+ create mode 100644 Diena11/Ellipse 3.svg
+ create mode 100644 Diena11/Ellipse 4.svg
+ create mode 100644 Diena11/Ellipse 5.svg
+ create mode 100644 Diena11/Ellipse 6.svg
+ create mode 100644 Diena11/Ellipse 7.svg
+ create mode 100644 Diena11/Rectangle 10.svg
+ create mode 100644 Diena11/Rectangle 11.svg
+ create mode 100644 Diena11/Rectangle 12.svg
+ create mode 100644 Diena11/Rectangle 13.svg
+ create mode 100644 Diena11/Rectangle 14.svg
+ create mode 100644 Diena11/Rectangle 15.svg
+ create mode 100644 Diena11/Rectangle 16.svg
+ create mode 100644 Diena11/Rectangle 17.svg
+ create mode 100644 Diena11/Rectangle 18.svg
+ create mode 100644 Diena11/Rectangle 19.svg
+ create mode 100644 Diena11/Rectangle 2.svg
+ create mode 100644 Diena11/Rectangle 20.svg
+ create mode 100644 Diena11/Rectangle 21.svg
+ create mode 100644 Diena11/Rectangle 22.svg
+ create mode 100644 Diena11/Rectangle 27.svg
+ create mode 100644 Diena11/Rectangle 8.svg
+ create mode 100644 Diena11/Rectangle 9.svg
+ create mode 100644 Diena11/index.html
+ create mode 100644 Diena11/styles.css
+ rename {Diena9 => Diena8/Figma}/assets/css.css (100%)
+ rename {Diena9 => Diena8/Figma}/assets/css/bootstrap-grid.css (100%)
+ rename {Diena9 => Diena8/Figma}/assets/css/bootstrap-grid.css.map (100%)
+ rename {Diena9 => Diena8/Figma}/assets/css/bootstrap-grid.min.css (100%)
+ rename {Diena9 => Diena8/Figma}/assets/css/bootstrap-grid.min.css.map (100%)
+ rename {Diena9 => Diena8/Figma}/assets/css/bootstrap-reboot.css (100%)
+ rename {Diena9 => Diena8/Figma}/assets/css/bootstrap-reboot.css.map (100%)
+ rename {Diena9 => Diena8/Figma}/assets/css/bootstrap-reboot.min.css (100%)
+ rename {Diena9 => Diena8/Figma}/assets/css/bootstrap-reboot.min.css.map (100%)
+ rename {Diena9 => Diena8/Figma}/assets/css/bootstrap.css (100%)
+ rename {Diena9 => Diena8/Figma}/assets/css/bootstrap.css.map (100%)
+ rename {Diena9 => Diena8/Figma}/assets/css/bootstrap.min.css (100%)
+ rename {Diena9 => Diena8/Figma}/assets/css/bootstrap.min.css.map (100%)
+ rename {Diena9 => Diena8/Figma}/assets/index.html (100%)
+ rename {Diena9 => Diena8/Figma}/assets/js/bootstrap.bundle.js (100%)
+ rename {Diena9 => Diena8/Figma}/assets/js/bootstrap.bundle.js.map (100%)
+ rename {Diena9 => Diena8/Figma}/assets/js/bootstrap.bundle.min.js (100%)
+ rename {Diena9 => Diena8/Figma}/assets/js/bootstrap.bundle.min.js.map (100%)
+ rename {Diena9 => Diena8/Figma}/assets/js/bootstrap.js (100%)
+ rename {Diena9 => Diena8/Figma}/assets/js/bootstrap.js.map (100%)
+ rename {Diena9 => Diena8/Figma}/assets/js/bootstrap.min.js (100%)
+ rename {Diena9 => Diena8/Figma}/assets/js/bootstrap.min.js.map (100%)
+ rename {Diena9 => Diena8/Figma}/grid.css (100%)
+ rename {Diena9 => Diena8/Figma}/grid.html (100%)
+ rename {Diena9 => Diena8/Figma}/grid2.html (100%)
+ rename {Diena9 => Diena8/Figma}/index.html (100%)
+ rename {Diena9 => Diena8/Figma}/style.css (100%)
+ rename {Diena9 => Diena8/Figma}/website.html (100%)
+ create mode 100644 Diena8/vazonai/image1.png
+ create mode 100644 Diena8/vazonai/image2.png
+ create mode 100644 Diena8/vazonai/image3.png
+ create mode 100644 Diena8/vazonai/image4.png
+ create mode 100644 Diena8/vazonai/main.html
+ create mode 100644 Diena8/vazonai/pirkti.png
+ create mode 100644 Diena8/vazonai/styles.css
+ create mode 100644 Diena8/vazonai/vazonospalva.png
+ rename {Diena10 => Diena9/Figma_website1}/Rectangle 1.svg (100%)
+ rename {Diena10 => Diena9/Figma_website1}/Rectangle 4.svg (100%)
+ rename {Diena10 => Diena9/Figma_website1}/figma3.html (100%)
+ rename {Diena10 => Diena9/Figma_website1}/simple-line-icons_bubbles.svg (100%)
+ rename {Diena10 => Diena9/Figma_website1}/simple-line-icons_call-end.png (100%)
+ rename {Diena10 => Diena9/Figma_website1}/simple-line-icons_direction.png (100%)
+ rename {Diena10 => Diena9/Figma_website1}/simple-line-icons_earphones.png (100%)
+ create mode 100644 Diena9/Figma_website2/assets/.DS_Store
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-grid.css
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-grid.css.map
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-grid.min.css
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-grid.min.css.map
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-grid.rtl.css
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-grid.rtl.css.map
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-grid.rtl.min.css
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-grid.rtl.min.css.map
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-reboot.css
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-reboot.css.map
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-reboot.min.css
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-reboot.min.css.map
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-reboot.rtl.css
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-reboot.rtl.css.map
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-reboot.rtl.min.css
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-reboot.rtl.min.css.map
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-utilities.css
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-utilities.css.map
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-utilities.min.css
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-utilities.min.css.map
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-utilities.rtl.css
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-utilities.rtl.css.map
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-utilities.rtl.min.css
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap-utilities.rtl.min.css.map
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap.css
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap.css.map
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap.min.css
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap.min.css.map
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap.rtl.css
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap.rtl.css.map
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap.rtl.min.css
+ create mode 100644 Diena9/Figma_website2/assets/css/bootstrap.rtl.min.css.map
+ create mode 100644 Diena9/Figma_website2/assets/css/stiliai.css
+ create mode 100644 Diena9/Figma_website2/assets/css/styles.css
+ create mode 100644 Diena9/Figma_website2/assets/images/Rectangle 10.png
+ create mode 100644 Diena9/Figma_website2/assets/images/Rectangle 8.png
+ create mode 100644 Diena9/Figma_website2/assets/images/Rectangle 9.png
+ create mode 100644 Diena9/Figma_website2/assets/images/fonas.png
+ create mode 100644 Diena9/Figma_website2/assets/js/bootstrap.bundle.js
+ create mode 100644 Diena9/Figma_website2/assets/js/bootstrap.bundle.js.map
+ create mode 100644 Diena9/Figma_website2/assets/js/bootstrap.bundle.min.js
+ create mode 100644 Diena9/Figma_website2/assets/js/bootstrap.bundle.min.js.map
+ create mode 100644 Diena9/Figma_website2/assets/js/bootstrap.esm.js
+ create mode 100644 Diena9/Figma_website2/assets/js/bootstrap.esm.js.map
+ create mode 100644 Diena9/Figma_website2/assets/js/bootstrap.esm.min.js
+ create mode 100644 Diena9/Figma_website2/assets/js/bootstrap.esm.min.js.map
+ create mode 100644 Diena9/Figma_website2/assets/js/bootstrap.js
+ create mode 100644 Diena9/Figma_website2/assets/js/bootstrap.js.map
+ create mode 100644 Diena9/Figma_website2/assets/js/bootstrap.min.js
+ create mode 100644 Diena9/Figma_website2/assets/js/bootstrap.min.js.map
+ create mode 100644 Diena9/Figma_website2/puslapis.html
+
+Vartotojas@DESKTOP-FOL2BIK MINGW64 ~/2024-12-12-diena-1 (main)
+$ git push
+fatal: The current branch main has multiple upstream branches, refusing to push.

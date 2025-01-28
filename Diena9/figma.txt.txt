@@ -1,0 +1,6 @@
+Šitose pamokose yra parodyta kaip sukurti dizainą su Bootstrap.
+
+Prieš pradedant reikia turėti omenyje, kad čia yra parodytas ne visas projektas, tačiau jis yra visai neblogai apjungtas, su šriftais, ikonom, figma ir pan. Taip pat, gali būti viena kita dalis outdated, tai kažkurias vietas galima praleisti (pvz figmos plugin pasijungimą, kuris parodo ikonas) arba galima paeksperimentuoti patiems. Taip pat, siūlau Bootstrap dalykus kopijuotis iš dokumentacijos puslapio, o ne nusirašyti nuo video, ypač jeigu jūsų versija skirsis nuo manosios.
+
+Dizainas:
+https://www.figma.com/file/H1BouKG8bTPjX5dAQYfHlM/Demo-projektas-frontenderiui-arba-wordpreseriui?node-id=0%3A1

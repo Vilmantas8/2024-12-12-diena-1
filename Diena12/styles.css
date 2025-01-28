@@ -1,0 +1,170 @@
+/* Pagrindinis konteineris (Main container) */
+.main-container {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Viršutinė navigacija (Top navigation) */
+.header {
+    height: 72px;
+    width: 100%;
+    border-bottom: 1px solid #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    background: white;
+}
+
+/* Logotipo stilius (Logo styling) */
+.logo {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1F2937;
+}
+
+/* Navigacijos elementų konteineris (Navigation items container) */
+.nav-items {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+/* Paieškos mygtukas (Search button) */
+.search-button {
+    background: none;
+    border: none;
+    color: #4B5563;
+    cursor: pointer;
+    padding: 8px;
+    transition: color 0.2s ease;
+}
+
+.search-button:hover {
+    color: #1F2937;
+}
+
+/* Navigacijos nuorodos (Navigation links) */
+.nav-links {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-links a {
+    color: #4B5563;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #1F2937;
+}
+
+/* Pagrindinio turinio konteineris (Main content container) */
+.content-container {
+    display: flex;
+    margin-top: 68px;
+    position: relative;
+}
+
+/* Kairės pusės tekstas (Left side text) */
+.text-container {
+    width: 432px;
+    padding: 266px 0 0 80px;
+}
+
+/* Antraštės stilius (Heading style) */
+.main-heading {
+    font-size: 48px;
+    line-height: 1.2;
+    color: #1F2937;
+    margin-bottom: 16px;
+}
+
+/* Aprašymo tekstas (Description text) */
+.description {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #4B5563;
+    margin-bottom: 24px;
+}
+
+/* Mygtukas (Button) */
+.cta-button {
+    background: #1F2937;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #374151;
+}
+
+/* Dešinės pusės paveikslas (Right side image) */
+.image-container {
+    width: 737px;
+    height: 536px;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Skaidrių numeracija (Slide numbering) */
+.slide-number {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    color: #1F2937;
+    font-size: 14px;
+}
+
+/* Mobilūs stiliai (Mobile styles) */
+@media (max-width: 1440px) {
+    .main-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content-container {
+        flex-direction: column;
+    }
+
+    .text-container {
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .image-container {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 0 20px;
+    }
+
+    .nav-links {
+        gap: 16px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+}

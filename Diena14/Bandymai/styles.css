@@ -1,0 +1,169 @@
+/* Reset styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Header container */
+.header {
+  background: url('https://s3-alpha-sig.figma.com/img/ac14/319a/0cad7c4bb9927f868bc902ef087041c0?Expires=1738540800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UvReRsvNTUB--pD~6R3f7MLPWkhQZ1F0H773949zgZ1qu5K6SpVPzCOg7XkRnttoartcIi0VjIoFcd5oFRysaJc-OPE-8Atof7OCFdc72GoszcSl7yrH603PCX1Qz9KK4PGmmFA1WkojbnLZAOkd4K8ZhksbtR-r3jXjE7bG4eqPfyzjvEMIEioDl5f1ev4kAj9wyVvyzCd8mHfg8RAIrJ6UWMiVi4XWrjKH5RiOZS8sKJNK-SQMjFCjPjKPH4KJq1buKg5ED1X9YsGsg2IY9YEnbgEDDn5Cr7UPq4NUt6Le2WILATkRbax-iENkGpm-7NQH6e0N5pwnSRqvRwYNUA__') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 689px; /* Default height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Container for the header */
+.container {
+  width: 100%;
+  max-width: 1437px; /* Matches the layout */
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Top header navigation */
+.menu ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.menu ul li {
+  font-size: 16px;
+}
+
+.menu ul li a {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contact-button {
+  background-color: #ff4d4d;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.contact-button:hover {
+  background-color: #e63946;
+}
+
+/* Hero section */
+.hero-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .header {
+    height: 600px;
+  }
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    height: 500px;
+  }
+  .hero-section h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 400px;
+  }
+  .menu ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section {
+    text-align: left;
+    padding: 0 15px;
+  }
+  .hero-section h1 {
+    font-size: 1.5rem;
+  }
+}
+/* Full width container */
+.text-container {
+  width: 100%;
+  height: 498px; /* Specified height */
+  background-color: #EF5D69; /* Background color */
+  display: flex;
+  justify-content: center; /* Center inner block horizontally */
+  align-items: center; /* Center inner block vertically */
+  position: relative;
+  padding: 67px 60px; /* Top, bottom, left, and right spacing */
+  box-sizing: border-box; /* Ensures padding is included in the total dimensions */
+}
+
+/* Inner block */
+.text-block {
+  width: 100%; /* Adjust to fit the container width minus padding */
+  max-width: 1321px; /* Hug width */
+  height: 100%; /* Adjust to fit the container height minus padding */
+  max-height: 362px; /* Hug height */
+  background-color: rgba(255, 255, 255, 0.8); /* #FFFFFFCC */
+  border-radius: 8px 0px 0px 0px;
+  padding: 60px 40px; /* Padding inside the block */
+  display: flex;
+  justify-content: space-between; /* Align text columns evenly */
+  align-items: center; /* Center content vertically */
+  gap: 60px; /* Gap between text columns */
+  box-sizing: border-box; /* Ensures padding is included in the total dimensions */
+}
+
+/* Text column */
+.text-column {
+  width: 540px; /* Text container width */
+  height: auto; /* Allow height to adjust naturally */
+  display: flex;
+  align-items: center; /* Align text vertically inside each block */
+  justify-content: center; /* Align text horizontally inside each block */
+  text-align: center; /* Center align text */
+  color: #000000; /* Text color */
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+}
+
+/* Paragraph alignment */
+.text-column p {
+  margin: 0;
+}
