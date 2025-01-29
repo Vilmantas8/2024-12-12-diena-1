@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Categories</title>
+    <link rel="stylesheet" href="stiliai8.css">
+</head>
+<body>
+    <div class="browse-categories">
+        <h2>Browse Categories</h2>
+        <div class="category-container">
+            <div class="category">
+                <img src="Photo & Icon.svg" alt="Art">
+                <span>Art</span>
+            </div>
+            <div class="category">
+                <img src="Photo & Icon (1).svg" alt="Collectibles">
+                <span>Collectibles</span>
+            </div>
+            <div class="category">
+                <img src="Photo & Icon (2).svg" alt="Music">
+                <span>Music</span>
+            </div>
+            <div class="category">
+                <img src="Photo & Icon (3).svg" alt="Photography">
+                <span>Photography</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
