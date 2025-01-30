@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.top-creators-container {
+    width: 1050px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 703px;
+    height: 46px;
+}
+
+h3 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45.6px;
+    text-align: left;
+}
+
+.view-rankings {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.creators-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    width: 1050px;
+    margin-top: 30px;
+}
+
+.creator-card {
+    width: 240px;
+    height: 238px;
+    padding-top: 20px;
+    border-radius: 20px 0 0 0;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creator-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
