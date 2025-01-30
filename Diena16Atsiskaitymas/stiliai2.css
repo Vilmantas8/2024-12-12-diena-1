@@ -39,28 +39,106 @@ body {
     cursor: pointer;
 }
 
+/* Hero Section */
 .hero-container {
+    width: 1050px;
+    margin: 0 auto;
+    padding: 80px 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 50px;
+    align-items: flex-start;
+    gap: 30px;
 }
 
 .hero-text {
-    max-width: 600px;
+    width: 510px;
+    height: 564px;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-text h1 {
-    font-size: 48px;
-    font-weight: 700;
+    font-size: 67px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin: 0 0 20px;
 }
 
 .hero-text p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin: 20px 0;
+    font-size: 22px;
+    line-height: 35px;
+    margin: 0 0 30px;
 }
 
+.hero-stats {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.hero-stats div {
+    text-align: left;
+}
+
+.hero-stats h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.hero-stats p {
+    font-size: 23px;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.hero-image {
+    width: 510px;
+    height: 510px;
+}
+
+.nft-card {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #272727;
+}
+
+.nft-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.nft-info {
+    padding: 22px 30px;
+    background: #272727;
+}
+
+.nft-info h3 {
+    font-size: 22px;
+    margin: 0 0 10px;
+}
+
+.artist {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.artist img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.artist span {
+    font-size: 16px;
+}
+
+/* Container Styles */
 .container {
     width: 1046px;
     margin: 50px auto;
@@ -116,6 +194,7 @@ body {
     opacity: 0.7;
 }
 
+/* Top Creators */
 .top-creators-container {
     width: 1050px;
     margin: 0 auto;
@@ -158,60 +237,226 @@ body {
 /* Browse Categories */
 .browse-categories {
     margin: 50px auto;
-    width: 80%;
-    max-width: 1200px;
+    width: 1050px;
 }
 
 .browse-categories h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-align: center;
+    font-size: 38px;
+    margin-bottom: 40px;
 }
 
 .category-container {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 30px;
 }
 
 .category {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 240px;
-    border-radius: 20px 0px 0px 0px;
+    border-radius: 20px;
     overflow: hidden;
     background: rgba(255, 255, 255, 0.1);
-    padding-bottom: 25px;
 }
 
 .category img {
     width: 100%;
-    height: 316px;
+    height: 240px;
     object-fit: cover;
-    border-radius: 20px 0px 0px 0px;
 }
 
 .category span {
     display: block;
-    width: 100%;
-    padding: 20px 30px;
-    font-size: 18px;
-    font-weight: bold;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 600;
     text-align: center;
-    background: rgba(0, 0, 0, 0.5);
 }
 
-/* Responsive Grid System */
-@media (min-width: 1200px) {
-    .col-xl { width: 100%; }
+/* Magic Mushrooms Section */
+.additional-image-container {
+    display: none; 
+    max-width: 1050px;
+    margin: 60px auto;
+    padding: 0 20px;
 }
-@media (min-width: 992px) and (max-width: 1199px) {
-    .col-lg { width: 100%; }
+
+.additional-image {
+    width: 100%;
+    max-width: 1050px;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
 }
-@media (min-width: 768px) and (max-width: 991px) {
-    .col-md { width: 100%; }
+
+/* How it works section */
+.how-it-works-section {
+    width: 1050px;
+    margin: 80px auto;
+    padding: 20px;
 }
-@media (max-width: 767px) {
-    .col-sm { width: 100%; }
+
+.how-it-works-header {
+    margin-bottom: 48px;
+}
+
+.how-it-works-header h3 {
+    font-size: 38px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.how-it-works-header p {
+    font-size: 22px;
+    line-height: 35px;
+    margin: 10px 0 0;
+}
+
+.how-it-works-grid {
+    display: flex;
+    gap: 30px;
+}
+
+.how-it-works-card {
+    width: 330px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #272727;
+}
+
+.how-it-works-card img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.how-it-works-card h3 {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.how-it-works-card p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/* Subscribe section */
+.subscribe-container {
+    width: 1050px;
+    margin: 80px auto;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.subscribe-image {
+    width: 425px;
+}
+
+.subscribe-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.subscribe-content {
+    flex: 1;
+}
+
+.subscribe-text h3 {
+    font-size: 38px;
+    margin: 0 0 20px;
+}
+
+.subscribe-text p {
+    font-size: 22px;
+    line-height: 35px;
+    margin: 0 0 40px;
+}
+
+.subscribe-form img {
+    width: 100%;
+    height: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .hero-container,
+    .container,
+    .top-creators-container,
+    .browse-categories,
+    .how-it-works-section,
+    .subscribe-container {
+        width: calc(100% - 40px);
+        padding: 0 20px;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-text,
+    .hero-image {
+        width: 100%;
+        max-width: 510px;
+        height: auto;
+    }
+
+    .creators-grid {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    .category-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .how-it-works-grid {
+        flex-direction: column;
+    }
+
+    .how-it-works-card {
+        width: 100%;
+    }
+
+    .subscribe-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .subscribe-image,
+    .subscribe-content {
+        width: 100%;
+        max-width: 425px;
+    }
+
+    /* Show Magic Mushrooms image for tablet */
+    .additional-image-container {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .creators-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-text h1 {
+        font-size: 38px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+    }
+
+    .hero-stats {
+        flex-wrap: wrap;
+    }
+
+        .additional-image-container {
+        padding: 0 15px;
+        margin: 40px auto;
+    }
 }
